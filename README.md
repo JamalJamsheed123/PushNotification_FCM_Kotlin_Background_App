@@ -1,6 +1,6 @@
 # PushNotification_FCM_Kotlin_Background_App
-##  If you want foregrounded apps to receive notification messages or data messages, for mobile power ON only:
-##  you’ll need to write code to handle the onMessageReceived callback
-##  onMessageReceived() must handle it
-##  Full control (custom UI, actions, etc.)
-##  Real-time updates, chat messages, or UI changes
+## If you want Sending a Test Message background apps(inactive/killed) or mobile POWER OFF
+## FCM Automatically Displays the Notification using tokens
+## No Code Execution in onMessageReceived() for notification payload
+## Limited control (system controls look & behavior)
+## Quick alerts like promotions, reminders
