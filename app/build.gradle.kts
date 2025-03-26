@@ -69,7 +69,9 @@ dependencies {
     implementation("com.google.firebase:firebase-messaging")
     implementation("com.google.firebase:firebase-analytics-ktx")
 
-
+// Add the dependencies for the In-App Messaging and Analytics libraries
+    implementation("com.google.firebase:firebase-inappmessaging-display")
+    implementation("com.google.firebase:firebase-analytics")
 }
 
 
